@@ -1,0 +1,143 @@
+
+html{
+  cursor: url('/imagens/mata_mosca.png') 30 30,auto;
+}
+
+
+
+body{
+background-image: url('/imagens/bg.jpg');
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/*mosca*/
+.mosquito1{
+  width: 6%;
+  height: 6%;
+}
+
+.mosquito2{
+  width: 10%;
+  height: 10%;
+}
+.mosquito3{
+  width: 15%;
+  height: 15%;
+}
+
+.ladoB{
+  transform: scaleX(-1); /*altera lado da imagem, espelhamento*/
+}
+
+/*ambiente*/
+#painel{
+  position: absolute;
+  width: 20%;
+  padding: 10px;
+  bottom: 20px;
+  border-top: solid 1px white;
+  opacity: 90%;
+  background-color: wheat;
+}
+
+#life{
+  float: left;
+}
+#time{
+  float: left;
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+
+
+/*gameOverPage*/
+.gameover{
+  display: flex;
+  justify-content: center;
+}
+
+
+/*botão de reinicio*/
+.button{
+  display: flex;
+  justify-content: center;
+}
+.btn-dark{
+  background: -webkit-linear-gradient( #E0E0E0, #F9F9F9 70%);
+  background: -moz-linear-gradient(#E0E0E0, #F9F9F9 70%);
+  background: -o-linear-gradient(#E0E0E0, #F9F9F9 70%);
+  background: -ms-linear-gradient( #E0E0E0, #F9F9F9 70%);
+  background: linear-gradient( #E0E0E0, #F9F9F9 70%);
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .3),
+                0 2px 7px rgba(0, 0, 0, 0.2);
+     color: #616165;
+     font-family: "Trebuchet MS";
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 120px;
+
+}
+
+
+
+/*Win Pag*/
+.win{
+  display: flex;
+  justify-content: center;
+}
+
+/*iniciar*/
+.btn-dark1{
+  background: -webkit-linear-gradient( #db0e7f, #8a082f 70%);
+  background: -moz-linear-gradient(#db0e7f, #8a082f 70%);
+  background: -o-linear-gradient(#db0e7f, #8a082f 70%);
+  background: -ms-linear-gradient( #db0e7f, #8a082f 70%);
+  background: linear-gradient( #db0e7f, #8a082f 70%);
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(253, 253, 253, 0.3),
+                0 2px 7px rgba(255, 253, 253, 0.2);
+     color: #dedee2;
+     font-family: "Trebuchet MS";
+     font-size: 14px;
+     font-weight: bold;
+     line-height: 25px;
+     text-align: center;
+     text-decoration: none;
+     text-transform: uppercase;
+     text-shadow:1px 1px 0 #FFF;
+     padding: 5px 15px;
+     position: relative;
+     width: 120px;
+
+}
+
+
+/*select*/
+.selected{
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  color: #f5f1f2;
+  font-weight: bold;
+  background: #1a1919;
+
+}
+.form-control{
+  display: flex;
+  margin-bottom: 2%;
+  justify-content: center;
+}

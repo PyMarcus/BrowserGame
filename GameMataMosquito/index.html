@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Mata Mosquito</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+  <link rel="shortcut icon" href="/imagens/mosca.png" type="image/x-icon">
+</head>
+<body>
+    <section class="win">
+      <img src="./imagens/game.png">
+    </section>
+    <!--dificult level-->
+    <section class="form-control">
+      <select id="value-selected" class="selected">
+        <option value="">★  Selecione o nível de dificuldade  ★</option>
+        <option value="normal">Normal</option>
+        <option value="Difícil">Difícil</option>
+        <option value="GOD">GOD</option>
+      </select>
+    </section>
+    <br><br><br>
+    <!--start button-->
+    <section class="button">
+      <button id="restart" type="button" onclick="start()" class="btn-dark1">Iniciar</button>
+    </section>
+
+
+    <footer>
+        <script>
+          function start(){
+            variavel = document.getElementById("value-selected").value
+            if(variavel == ''){
+              return alert("Selecione a dificuldade")
+            }
+            else{
+              if(variavel == 'normal'){
+                window.location.href = 'app.html'
+              }
+              if(variavel == 'Difícil'){
+                window.location.href = 'app2.html'
+              }
+              if(variavel == 'GOD'){
+                window.location.href = 'app3.html'
+              }
+
+            }
+          }
+        </script>
+
+    </footer>
+</body>
+</html>
