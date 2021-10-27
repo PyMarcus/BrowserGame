@@ -7,3 +7,6 @@ App <b>Mata Mosquito</b>, um jogo de navegador.
 
 O game utiliza HTML5, CSS3 e Java Script em sua estrutura.É um jogo construído com assuntos básicos, porém, essenciais , de desenvolvimento web.
 Construir um jogo, é uma ótima forma de treinar programação e se divertir.Além disso,dessa forma, pude reforçar as minhas bases no desenvolvimento Web e ,agora, posso dizer que sei fazer games de navegador. 
+
+
+https://user-images.githubusercontent.com/88283829/139117907-f9d6b1c3-33f3-4c22-91b1-e1590dcdc4d2.mp4
